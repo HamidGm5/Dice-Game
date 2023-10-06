@@ -23,7 +23,7 @@ namespace Dice_Game
             int compnumber = computeRand.Next(1, 7);
             cdc.COmputdice(compnumber);
 
-            Result.res(mynumber, compnumber);
+            Result.result(mynumber, compnumber);
 
             Console.WriteLine("if You Would Play Again Press Button y And For Closing The Game Press Button n");
 
@@ -66,7 +66,7 @@ namespace Dice_Game
 
         public static class Result
         {
-            public static void res(int my, int comp)
+            public static void result(int my, int comp)
             {
                 if (my > comp)
                 {
