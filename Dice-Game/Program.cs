@@ -43,7 +43,7 @@ namespace Dice_Game
             {
                 _myDice = md;
                 Console.ForegroundColor = ConsoleColor.Blue;
-                Console.WriteLine("Your Dice = " + _myDice);
+                Console.WriteLine("Your Dice Is = " + _myDice);
                 Console.ResetColor();
             }
 
@@ -58,7 +58,7 @@ namespace Dice_Game
             {
                 _computerDice = cd;
                 Console.ForegroundColor = ConsoleColor.Magenta;
-                Console.WriteLine("Computer Dice = " + _computerDice);
+                Console.WriteLine("Computer Dice Is= " + _computerDice);
                 Console.ResetColor();
             }
         }
